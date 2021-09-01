@@ -1,0 +1,451 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Normal css */
+header{
+    height: 100vh;
+    background: url('../images/banner.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0.1px;
+}
+nav{
+    margin: 0 auto;
+    max-width: 1400px;
+    /* background-color: burlywood; */
+    margin-top: 50px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+nav .brand-name{
+    float: left;
+    color: white;
+    font-size: 18px;
+}
+.brand-name .target{
+    font-weight: 700;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+nav ul li{
+    float: left;
+    margin-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+header h1{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+}
+header .green-icon{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header .green-icon .info{
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+.info i{
+    font-size: 40px;
+    color: #6cc091;
+}
+.info h4{
+    font-size: 28px;
+    color: white;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.info p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.55);
+}
+.green-icon .border{
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+.b-holder{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.b-holder button{
+    margin: 0 auto;
+    background:0;
+    color: #6cc091;
+    border-radius: 30px;
+    border: 3px solid  #6cc091;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 15px 45px 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* two cards */
+.card-holder{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.content{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.content img{
+    width: 20%;
+    border-radius: 50%;
+}
+.content h2{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 32px;
+    color: #680e0e;
+    font-weight: 500;
+}
+.content p{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    font-size: 18px;
+    color: #9a9a9a;
+    line-height: 30px;
+}
+.content button{
+    background:0;
+    color: #6cc091;
+    border-radius: 30px;
+    border: 3px solid  #6cc091;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 15px 45px 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+/* form starts */
+.form-holder{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #6cc091;
+}
+.form-holder h4{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-weight: 500;
+}
+form{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+form .name-holder{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+label{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    background-color: #6cc091;
+    border: 2px solid #8dcca9;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+::placeholder{
+    color: #c4e7d5;
+}
+form .mail-holder{
+    width: 48%;
+    float: left;
+}
+.mail-holder input{
+    width: 100%;
+}
+form .txtmsg{
+    width: 100%;
+    clear: both;
+}
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    background-color: #6cc091;
+    border: 2px solid #8dcca9;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.form-holder .b-holder{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-holder button{
+    background:0;
+    color: white;
+    border-radius: 30px;
+    border: 3px solid white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 15px 45px 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-holder p{
+    text-align: center;
+    margin-top: 40px;
+    color: #c4e7d5;
+    font-size: 15px;
+}
+
+/* ********************************************************** */
+
+
+/* media queries start */
+/*for small laptops */
+@media only screen and (max-width:1440px){
+    nav{
+        width: 80%;
+        padding-bottom: 60px;
+    }
+    nav .brand-name{
+        float: left;
+        color: white;
+        font-size: 16px;
+    }
+    nav ul li{
+        float: left;
+        margin-left: 30px;
+        color: white;
+        font-size: 16px;
+    }
+    header h1{
+        font-size: 56px;
+    }
+    header .green-icon{
+        width: 80%;
+    }
+    .info i{
+        font-size: 30px;
+        color: #6cc091;
+    }
+    .info h4{
+        font-size: 24px;
+        color: white;
+        margin-top: 15px;
+        font-weight: 400;
+    }
+    .info p{
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.55);
+    }
+    .content h2{
+        font-size: 28px;
+    }
+    .content p{
+        margin-top: 30px;
+        font-size: 16px;
+        width: 70%;
+    }
+    /* form starts */
+
+    .form-holder h4{
+        font-size: 28px;
+    }
+    form{
+        width: 80%;
+    }
+    label{
+        font-size: 15px;
+    }
+}
+/* ************************************************************* */
+
+/* for tabs and small pcs */
+@media only screen and (max-width:1024px){
+    header h1{
+        font-size: 48px;
+    }
+    nav{
+        padding-bottom: 40px;
+    }
+    .info h4{
+        font-size: 20px;
+    }
+    .content img{
+        width: 30%;
+        border-radius: 50%;
+    }
+    .content p{
+        width: 80%;
+        font-size: 16px;
+    }
+}
+/* ************************************************** */
+
+/* for small devices */
+@media only screen and (max-width:980px){
+    header{
+        height: 60vh;
+    }
+    nav{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    nav ul {
+        display: none;
+    }
+    .fa-bars{
+        display: block !important;
+        float: right;
+        color: white;
+        font-size: 20px;
+    }
+    header h1{
+        margin-top: 50px;
+        margin-bottom: 35px;
+        font-size: 40px;
+    }
+    .info h4{
+        font-size: 17px;
+        color: white;
+        margin-top: 15px;
+        font-weight: 400;
+    }
+    .info p{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.55);
+    }
+    .card-holder{
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    .content{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .content img{
+        width: 15%;
+    }
+    .content h2{
+        font-size: 28px;
+    }
+    .content p{
+        width: 50%;
+        font-size: 16px;
+    }
+    .content button{
+        padding: 10px 35px 10px 35px;
+    }
+  
+    .form-holder{
+        padding-top: 60px;
+        padding-bottom: 100px;
+        background-color: #6cc091;
+    }
+    .form-holder h4{
+        font-size: 28px;
+    }
+    form .name-holder{
+        width: 100%;
+        margin-right: 0;
+    }
+    label{
+        font-size: 14px;
+    }
+
+    form .mail-holder{
+        width: 100%;
+    }
+    .form-holder p{
+    
+        font-size: 13px;
+    }
+}
+
+/* ****************************** */
+
+
+/* change green icon */
+@media only screen and (max-width:737px){
+    header{
+        height: 90vh;
+    }
+    header h1{
+        font-size: 32px;
+    }
+    header .green-icon .info{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .green-icon .border{
+        border: 0;
+    }
+    .info i{
+        font-size: 25px;
+    }
+    .info h4{
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .info p{
+        font-size: 14px;
+    }
+    .b-holder{
+        margin-top: 50px;
+    }
+    .b-holder button{
+        padding: 10px 35px 10px 35px;
+    }
+    .content img{
+        width: 26%;
+    }
+    .content p{
+        width: 60%;
+    }
+}

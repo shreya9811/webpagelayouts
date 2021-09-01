@@ -1,0 +1,628 @@
+/*  */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+
+/* header starts */
+header{
+    padding: 0.1px;
+    width: 100%;
+    /* gradient copied from https://www.css-gradient.com/ */
+    background: #5F4877;
+    background: -webkit-linear-gradient(left, #5F4877, #7A437B);
+    background: -moz-linear-gradient(left, #5F4877, #7A437B);
+    background: linear-gradient(to right, #5F4877, #7A437B);
+}
+.header-text{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.left{
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 600;
+    width: 45%;
+    float:left;
+    line-height: 60px;
+}
+.header-text a{
+    color: white;
+}
+.header-text a:hover{
+    color: #00bc8a;
+}
+.right{
+    float: left;
+    width: 44%;
+    border-left: 2px solid #836c95;
+    padding-left: 4%;
+    margin-left: 6%;
+}
+.right p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.right button{
+    margin-top: 30px;
+    text-transform: uppercase;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    background: #00bc8a;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+/* box1 features */
+.box1{
+    width: 100%;
+    border-bottom: 3px solid rgba(144, 144, 144, 0.25);
+}
+.box1-content{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+.box1-content .para-left{
+    float: left;
+    width:45%;
+}
+.para-left h1{
+    font-size: 1.8rem;
+    color: #666666;
+    margin-bottom: 40px;
+}
+.para-left p{
+    color: #777777;
+    line-height: 35px;
+    font-size: 17.4px;
+}
+.para-left button{
+    margin-top: 30px;
+    text-transform: uppercase;
+    border: 2px solid rgba(144, 144, 144, 0.25);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #777777;
+    background: none;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.box1-content .features{
+    border-left: 2px solid rgba(144, 144, 144, 0.25);
+    margin-left: 6%;
+    padding-left: 4%;
+    float: left;
+}
+.features ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #777777;
+    font-size: 17.4px;
+}
+.features ul li{
+    margin-bottom: 40px;
+}
+.features ul .fa{
+    margin-right: 12px;
+    color: #00bc8a;
+}
+
+/* box2 3 cards row */
+.box2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fafafa;
+    text-align: center;
+}
+.box2 .card{
+    background: white;
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgba(144, 144, 144, 0.25);
+}
+
+.card img{
+    float: left;
+    width: 40%;
+}
+.card .card-content{
+    float: left;
+    width: 50%;
+    padding-top: 8%;
+    padding-left: 5%;
+    text-align: left;
+    /* padding: 100px 50px 100px 50px; */
+}
+.card-content h3{
+    font-size: 1.4rem;
+    color: #666666;
+}
+.card-content p{
+    margin-top: 25px;
+    color: #777777;
+    line-height: 35px;
+    font-size: 17.4px;
+}
+.card-content button{
+    margin-top: 30px;
+    text-transform: uppercase;
+    border: 2px solid rgba(144, 144, 144, 0.25);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #777777;
+    background: none;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.button-large{
+    text-transform: uppercase;
+    border: 2px solid rgba(144, 144, 144, 0.25);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #777777;
+    background:#fafafa;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+/*form box and social  */
+.box3{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 3px solid rgba(144, 144, 144, 0.25);
+}
+.box3-content{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.box3-content .form{
+    width: 50%;
+    float: left;
+}
+.form h1{
+    font-size: 1.8rem;
+    color: #666666;
+    margin-bottom: 40px;
+}
+.form p{
+    color: #777777;
+    line-height: 35px;
+    font-size: 17.4px;
+    margin-bottom: 40px;
+}
+form .text{
+    padding: 15px;
+    width: 38%;
+    margin-right: 5%;
+    border: 1px solid rgb(207, 220, 231);
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+form .email{
+    padding: 15px;
+    width: 38%;
+    border: 1px solid rgb(207, 220, 231);
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+form textarea{
+    width: 87%;
+    border: 1px solid rgb(207, 220, 231);
+    padding: 15px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder{
+    color: rgb(172, 181, 189);
+}
+
+.form button{
+    margin-top: 40px;
+    text-transform: uppercase;
+    border: 2px solid rgba(144, 144, 144, 0.25);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #777777;
+    background: none;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+.connect{
+    float: left;
+    border-left: 2px solid rgba(144, 144, 144, 0.25);
+    margin-left: 6%;
+    padding-left: 4%;
+    padding-bottom: 300px;
+    width: 30%;
+}
+.connect ul{
+    margin: 0;
+    padding: 0;
+    list-style:none ;
+}
+.connect ul li{
+    margin-bottom: 25px;
+}
+.connect a{
+    color: #777777;
+    font-size: 17.4px;
+}
+.connect a:hover{
+    color: #00bc8a;
+}
+.connect ul .fa{
+    color: #00bc8a;
+}
+.details{
+    margin-left: 15px;
+}
+/* footers starts */
+footer{
+    background-color: #fafafa;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.copyright{
+    width: fit-content;
+    margin: 0 auto;
+    color: #bbbbbb;
+}
+
+/* NORMAL CSS ENDS */
+
+/* media queries */
+
+/* FOR SMALL LAPTOPS AND  TABS*/
+@media only screen and (min-width:900px) and (max-width:1350px){
+    .header-text{
+        width: 90%;
+        margin-top: 15%;
+        margin-bottom: 8%;
+    }
+    .left{
+        font-size: 2rem;
+        line-height: 50px;
+        width: 44%;
+    }
+    .right{
+        margin-left: 7%;
+        width: 40%;
+    }
+    .right p{
+        font-size: 18px;
+    }
+    .right button{
+        font-weight: 500;
+    }
+    .box1-content{
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    .box1-content .para-left{
+        float: left;
+        width:47%;
+        padding-right: 4%;
+        border-right: 2px solid rgba(144, 144, 144, 0.25);
+    }
+    .para-left p{
+        font-size: 16px;
+    }
+    .box1-content .features{
+       margin: 0;
+       border: none;
+       padding-left: 4%;
+    }
+    .features ul{
+        font-size: 15px;
+    }
+    .box2{
+        padding-top: 60px;
+        padding-bottom: 80px;
+        background-color: #fafafa;
+    }
+    .box2 .card{
+        background: white;
+        width: 90%;
+    } 
+    .card img{
+        width:40%;
+    }
+    .card .card-content{
+        float: left;
+        width: 48%;
+        padding-top: 2%;
+        padding-left: 6%;
+    }
+    .card-content p{
+        margin-top: 15px;
+        font-size: 16px;
+    }    
+    .card-content button{
+        margin-top: 25px;
+    }
+    .box3{
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-bottom: 3px solid rgba(144, 144, 144, 0.25);
+    }
+    .box3-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box3-content .form{
+        width: 48%;
+        float: left;
+        padding-right: 3%;
+        border-right: 2px solid rgba(144, 144, 144, 0.25);
+    }
+    .form h1{
+        font-size: 1.7rem;
+        color: #666666;
+        margin-bottom: 40px;
+    }
+    .form p{
+        color: #777777;
+        line-height: 35px;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .connect{
+        float: left;
+        border: none;
+        margin-left: 4%;
+        padding: 0;
+        padding-bottom: 300px;
+        width: 40%;
+    }
+    /* footers starts */
+    footer{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media only screen and (max-width:899px){
+    header{
+        padding: 0.1px;
+        width: 100%;
+    }
+    .header-text{
+        width: 92%;
+        margin: 0 auto;
+        margin-top: 15%;
+        margin-bottom: 8%;
+    }
+    .left{
+        font-size: 1.7rem;
+        width: 100%;
+        line-height: 38px;
+    }
+    .right{
+        margin-top: 5%;
+        float: left;
+        width: 100%;
+        border-left: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .right p{
+        font-size: 17px;
+    }
+    .right button{
+        margin-top: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+    
+    /* box1 features */
+    .box1{
+        width: 100%;
+        border-bottom: 3px solid rgba(144, 144, 144, 0.25);
+    }
+    .box1-content{
+        width: 92%;
+        margin: 0 auto;
+        margin-top: 8%;
+        margin-bottom: 3%;
+    }
+    .box1-content .para-left{
+        float: left;
+        width:100%;
+    }
+    .para-left h1{
+        font-size: 1.7rem;
+        margin-bottom: 30px;
+    }
+    .para-left p{
+        line-height: 30px;
+        font-size: 15.4px;
+    }
+    .para-left button{
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .box1-content .features{
+        margin-top: 5%;
+        border-left:0px;
+        margin-left: 0;
+        padding-left: 0;
+        float: left;
+        width: 100%;
+    }
+    .features ul{
+        font-size: 15px;
+    }
+    .features ul li{
+        margin-bottom: 35px;
+    }
+    /* box2 3 cards row */
+    .box2{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .box2 .card{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .card img{
+        float: left;
+        width: 100%;
+    }
+    .card .card-content{
+        float: left;
+        width: 88%;
+        padding-top: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+    .card-content h3{
+        font-size: 1.3rem;
+    }
+    .card-content p{
+        margin-top: 25px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .card-content button{
+        margin-top: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .button-large{
+        text-transform: uppercase;
+        border: 2px solid rgba(144, 144, 144, 0.25);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+        color: #777777;
+        background:#fafafa;
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+    /*form box and social  */
+    .box3{
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    .box3-content{
+        width: 92%;
+    }
+    .box3-content .form{
+        width:100%;
+    }
+    .form h1{
+        font-size: 1.7rem;
+        margin-bottom: 30px;
+    }
+    .form p{
+        line-height: 30px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    form .text{
+        padding: 10px;
+        width: 40%;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    form .email{
+        padding: 10px;
+        width: 40%;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    form textarea{
+        width: 89%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .form button{
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .connect{
+        float: left;
+        border-left:0;
+        margin-left:0;
+        padding-left: 0;
+        padding-bottom: 0px;
+        width: 70%;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .connect a{
+        font-size: 15px;
+    }
+    /* footers starts */
+   footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 13px;
+    }
+}
